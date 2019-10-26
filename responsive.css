@@ -1,0 +1,39 @@
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .header .logo {
+    left: 30px;
+}
+.titulo h1 {
+    font-size: 38px;
+    padding-left: 1.160em;
+}   
+.descripcion p {
+    padding-left: 3em;
+    font-size: 16px;
+    flex-wrap: nowrap;
+}
+.more {
+    padding-top: 1em;
+    padding-left: 3em;
+}
+.capitulos {
+    width: 298px;
+    height: 225px; 
+}
+}
