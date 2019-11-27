@@ -359,4 +359,8 @@ i {
   padding: 2em 0.9em 1.3em 0.8em;
 }
 
+iframe {
+  border: 0;
+}
+
 
