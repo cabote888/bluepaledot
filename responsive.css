@@ -19,21 +19,55 @@
   .header .logo {
     left: 30px;
 }
-.titulo h1 {
+  .titulo h1 {
     font-size: 38px;
     padding-left: 1.160em;
 }   
-.descripcion p {
+  .descripcion p {
     padding-left: 3em;
     font-size: 16px;
     flex-wrap: nowrap;
 }
-.more {
+  .more {
     padding-top: 1em;
     padding-left: 3em;
 }
-.capitulos {
-    width: 298px;
-    height: 225px; 
+  iframe {
+    width: 240px;
+    height: 240px;
+}
+  .grilla h2 {
+    display: none;
+}
+  .clip {
+    height: 115em;
+}
+  .centrar {
+    flex-direction: column;
+}
+  .temas-img {
+    flex-direction: column;
+}
+  .about-img {
+    width: 350px;
+}
+  .invitados-img {
+    flex-direction: column;
+}
+  .invitados-img img {
+    width: 100%;
+}
+  .about-title {
+    font-size: 40px;
+}
+  #invitados {
+    font-size: 30px;
+}
+  .temas {
+    font-size: 33px;
+    display: flex;
+}
+  .temas-img > div {
+    padding: 10px;
 }
 }
